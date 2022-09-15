@@ -1,14 +1,17 @@
 <template>
-  <div>
-    <h1>home</h1>
-    <div id="search">
+  <div class="container">
+    <div class="item search-box">
       <TwitterSearchBox />
     </div>
-    <div id="result">
+    <div class="item result-list">
       <TwitterResultList />
     </div>
   </div>
 </template>
+
+<style lang="scss">
+@import "/assets/index.scss";
+</style>
 
 <script>
 export default {
