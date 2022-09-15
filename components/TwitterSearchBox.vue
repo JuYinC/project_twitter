@@ -1,5 +1,6 @@
 <template>
   <div>
-    <h2>search</h2>
+    <input type="text" placeholder="Search Keywords" />
+    <b-button variant="outline-primary">Search</b-button>
   </div>
 </template>
