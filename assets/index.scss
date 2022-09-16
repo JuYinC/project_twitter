@@ -13,11 +13,12 @@
 }
 
 .search-box {
-    background-color: bisque;
+    //border: 3 solid #1DA1F2;
+    background-color: #AAB8C2;
 }
 
 .result-list {
-    background-color: blueviolet;
+    background-color: #1DA1F2;
 }
 
 @media(min-width: 577px) {
@@ -37,11 +38,12 @@
 
     .search-box {
         flex: 0 0 150px;
-        background-color: bisque;
+        //border: 3 solid #1DA1F2;
+        background-color: #AAB8C2;
     }
 
     .result-list {
         flex-grow: 1;
-        background-color: blueviolet;
+        background-color: #1DA1F2;
     }
 }

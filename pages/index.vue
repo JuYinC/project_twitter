@@ -14,7 +14,14 @@
 </style>
 
 <script>
+// import Client from "twitter-api-sdk";
 export default {
   name: "IndexPage",
+  methods: {},
+  // async mounted() {
+  //   const client = new Client(process.env.BEARER_TOKEN);
+  //   const tweet = await client.tweets.findTweetById("20");
+  //   console.log(tweet.data.text);
+  // },
 };
 </script>
