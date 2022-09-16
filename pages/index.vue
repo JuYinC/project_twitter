@@ -14,6 +14,8 @@
 </style>
 
 <script>
+// 呼叫Twitter api sdk失敗，已將程式碼註解
+
 // import Client from "twitter-api-sdk";
 export default {
   name: "IndexPage",
